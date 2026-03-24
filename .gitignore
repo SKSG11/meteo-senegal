@@ -205,3 +205,24 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# SECRETS — ne jamais committer !
+.env
+*.env
+config.json
+credentials.json
+aws-credentials.json
+api_keys.txt
+
+# Fichiers Lambda zippés
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
